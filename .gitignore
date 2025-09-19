@@ -1,0 +1,117 @@
+# Note files
+node_modules/
+
+# Temporary and binary files
+*~
+*.py[cod]
+*.so
+*.cfg
+!.isort.cfg
+!setup.cfg
+*.orig
+*.log
+*.pot
+__pycache__/*
+.cache/*
+.*.swp
+*/.ipynb_checkpoints/*
+**/.ipynb_checkpoints/
+.DS_Store
+
+# Project files
+.ropeproject
+.project
+.pydevproject
+.settings
+.idea
+.vscode
+tags
+
+# Package files
+*.egg
+*.eggs/
+.installed.cfg
+*.egg-info
+
+# Unittest and coverage
+htmlcov/*
+.coverage
+.coverage.*
+.tox
+junit*.xml
+coverage.xml
+.pytest_cache/
+
+# Build and docs folder/files
+build/*
+dist/*
+sdist/*
+# docs/api/*
+docs/_rst/*
+docs/_build/*
+cover/*
+MANIFEST
+
+# Per-project virtualenvs
+.venv*/
+.conda*/
+.python-version
+
+# Used for mind management
+restart
+
+bin/predict
+
+# sensitive state
+*.sqlite
+*/*.sqlite
+
+# Leave tmp alone
+tmp
+
+# Ignore data as well, this is a shim
+data
+
+# Ignore minimal-requirements.txt, a side-effect for maintaining the requirements transparently.
+minimal-requirements.txt
+clean-requirements.txt
+
+# Ignore .env, this is where the secrets are kept.
+.env
+
+# Ignore local embeddings
+local_embeddings/
+**/sim_sentences/
+**/sentences.txt
+
+# Careful check on npm assets
+frontend/node_modules/
+frontend/.next/
+frontend/npm-debug.log
+
+# Runtime directories and files
+var/cache/*
+var/tmp/*
+var/work/*
+var/secrets/*
+var/state/*
+!var/cache/.gitkeep
+!var/tmp/.gitkeep
+!var/work/.gitkeep
+!var/secrets/.gitkeep
+!var/state/.gitkeep
+
+# Environment files
+.env.local
+.env.production
+.env.*.local
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker volumes
+docker-volumes/*
+
+.hugo_build.lock
