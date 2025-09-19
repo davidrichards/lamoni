@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://lamonihistoricalassociation.org/'
 languageCode = 'en-us'
-title = 'Untold Lamoni Stories'
+title = 'Lamoni Historical Association'
 theme = 'ananke'
